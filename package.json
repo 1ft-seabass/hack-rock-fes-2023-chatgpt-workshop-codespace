@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/1ft-seabass/hack-rock-fes-2023-chatgpt-workshop-codespace/issues"
   },
-  "homepage": "https://github.com/1ft-seabass/hack-rock-fes-2023-chatgpt-workshop-codespace#readme"
+  "homepage": "https://github.com/1ft-seabass/hack-rock-fes-2023-chatgpt-workshop-codespace#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "openai": "^4.12.3"
+  }
 }
