@@ -17,7 +17,7 @@ async function main() {
   // ChatGPT API に実際にアクセス
   // https://platform.openai.com/docs/guides/gpt/chat-completions-api?lang=node.js
   const completion = await openai.chat.completions.create({
-    messages: [{ role: "user", content: "こんにちは！ChatGPT さん！" }],
+    messages: [{ role: "user", content: "こんにちは!ChatGPTさん!" }],
     model: "gpt-3.5-turbo",
   });
 
